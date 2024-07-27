@@ -4,7 +4,6 @@ The AI model that will take an image as an input and give a str type output of t
 
 
 import pytesseract
-import numpy as np 
 from PIL import Image
 
 # Specify the path to the Tesseract executable

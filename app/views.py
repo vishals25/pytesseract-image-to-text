@@ -7,13 +7,6 @@ import os
 # Always use secure_filename from werkzeug.utils to sanitize file names
 # before saving them to the server. {chatGPT recommendation lol}
 from werkzeug.utils import secure_filename
-
-
-import numpy as np
-from PIL import Image
-import random
-import string
-import pytesseract
 from ml import extract_text
 
 # Adding path to config
